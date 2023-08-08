@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVKM NMIMS</title>
+	<!-- <link rel="stylesheet" type="text/css" href="HOME.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 20px;
+		}
+		
+		.logo img {
+			height: 50px;
+		}
+		
+		.logo h1 {
+			margin: 0;
+			font-size: 24px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			
+		}
+		
+		nav li {
+			margin-left: 20px;
+		}
+		
+		nav a {
+			color: white;
+			background-color: #333;
+			text-decoration: none;
+			padding: 10px;
+			display: block;
+		}
+		
+		nav a:hover {
+			text-decoration: underline;
+		}
+		
+		.login-register button {
+			margin-left: 20px;
+			background-color: #fff;
+			color: #333;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		
+		.login-register button:hover {
+			background-color: #ddd;
+		}
+		
+		.login-button {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		.login-button:hover {
+			background-color: #444;
+		}
+		
+		.register-button {
+			border: 1px solid #333;
+		}
+		
+		.register-button:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		main {
+			padding: 20px;
+		}
+		
+		h2 {
+			font-size: 36px;
+			margin-top: 0;
+		}
+		
+		footer {
+			background-color: #ccc;
+			color: #333;
+			padding: 10px 20px;
+			text-align: center;
+		}
+		
+		nav {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 20px;
+		  }
+		  .dropdown {
+			position: relative;
+		  }
+		  
+		  .dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+		  }
+		  
+		  .dropdown:hover .dropdown-content {
+			display: block;
+		  }
+		  
+		  .dropdown-content li {
+			margin: 0;
+		  }
+		  
+		  .dropdown-content a {
+			padding: 10px;
+		  }
+		  .slider-container {
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.slider-image {
+			
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+		
+		.slider-image.active {
+			opacity: 1;
+		}
+		.message {
+			background-color: #f1f1f1;
+			padding: 50px;
+			text-align: center;
+			margin: 50px;
+			border-radius: 20px;
+			box-shadow: 0px 0px 10px #ccc;
+		}
+		.message h2 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		.message p {
+			font-size: 24px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="SESLOGO.png" alt="College Name Logo">
+			<h1>SVKM NMIMS, SHIRPUR</h1>
+		</div>
+		<nav>
+			<ul>
+                <li class="dropdown">
+                    <a href="#">About Us</a>
+                    <ul class="dropdown-content">
+                      <li><a href="Chancellor.html">Chancellor</a></li>
+                      <li><a href="VC.html">Vice Chancellor</a></li>
+
+                    </ul>
+                  </li>
+				
+				<li><a href="Facitilities.html">Facilities</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="fees.html">Fees Structure</a></li>
+				<li><a href="Practise.html">Details</a></li>
+			</ul>
+		</nav>
+		<div class="login-register">
+			<a href="/login.html"><button class="login-button">Login</button></a>
+			<a href="/register" class="register-button"><button>Register</button></a>
+			
+		</div>
+	</header>
+	<marquee behavior="scroll" direction="left">
+		Welcome to SVKM's NMIMS!
+	</marquee>
+	<main class="message">
+		<div class="slick-slider">
+			<div><img src="slide1.jpg"></div>
+			<div><img src="slide2.jpg"></div>
+			<div><img src="slide3.jpg"></div>
+		  </div>
+		  
+		  <h2>Welcome to SVKM's NMIMS!</h2>
+		  <p>Experience the best of education and industry-oriented programs at our picturesque riverside campus. Our carefully chosen faculty members and regular interactions with industry experts ensure that you are well-equipped to meet the demands of the industry. We offer programs in Engineering, Pharmacy, Agriculture and Textile, providing a multi-disciplinary education to all our students. Our residential campus fosters a holistic learning environment, encouraging all-round development and self-directed learning. Join us today and be a part of our alumni community of achievers and leaders.</p>
+	  </main>
+	<footer>
+		<p>Toll Free - 1800 102 5138 - Monday to Saturday (except public holidays)</p>
+		<p>Address: SVKM's NMIMS, Mukesh Patel Technology Park, Shirpur, Maharashtra, India</p>
+		<p>Email: info@nmims.edu</p>
+		<p>&copy; SVKM's NMIMS All rights reserved.</p>
+	</footer> 
+</body>
+</html>
+<script>
+	$(document).ready(function(){
+	  $('.slick-slider').slick({
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		arrows: false
+	  });
+	});
+  </script>
+
